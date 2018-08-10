@@ -33,7 +33,7 @@ public class User implements Serializable{
         this.userPass = userPass;
         this.title = title;
         this.userIcon = userIcon;
-        this.status = 1;
+        this.status = 0;
     }
 
     public long getUserId() {

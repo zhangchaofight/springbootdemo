@@ -30,4 +30,8 @@ public final class ErrorCode implements Serializable{
     public static final int WELCOMEPAGE_APPVERSION_NOT_SUPPORT = 100301;
 
 
+    //文件上传
+    public static final int UPLOAD_FILE_NOT_NULL = 100400;
+    public static final int UPLOAD_FILE_FAILED = 100401;
+    public static final int UPLOAD_FILE_NAME_SYNTAX_WRONG = 100401;
 }

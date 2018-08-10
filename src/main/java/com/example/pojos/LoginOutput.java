@@ -4,13 +4,13 @@ import java.io.Serializable;
 
 public class LoginOutput extends BaseResponse implements Serializable{
 
-    private int token;
+    private String token;
 
-    public int getToken() {
+    public String getToken() {
         return token;
     }
 
-    public void setToken(int token) {
+    public void setToken(String token) {
         this.token = token;
     }
 }

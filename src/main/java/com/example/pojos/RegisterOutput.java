@@ -9,6 +9,15 @@ public class RegisterOutput extends BaseResponse implements Serializable {
         return userId;
     }
 
+    @Override
+    public String toString() {
+        return "RegisterOutput{" +
+                "code=" + getCode() + "," +
+                "message=" + getMessage() + "," +
+                "userId=" + userId + "," +
+                '}';
+    }
+
     public void setUserId(long userId) {
         this.userId = userId;
     }

@@ -55,6 +55,7 @@ public class RegisterController {
                 }
             }
         }
+        System.out.println(output.toString());
         return output;
     }
 
